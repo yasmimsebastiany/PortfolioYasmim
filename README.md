@@ -3,7 +3,7 @@
 <hr>
 
 ## Sobre o projeto:
-<p align= "justify">Este portfólio é o projeto final do curso Desenvolvimento FrontEnd: do Zero ao Primeiro Site, oferecido pelo grupo +praTi. O objetivo so projeto é criar um portfólio de apresentação utilizando HTML, CSS, JavaScript, Bootstrap.</p>
+<p align= "justify">Este portfólio é o projeto final do curso Desenvolvimento FrontEnd: do Zero ao Primeiro Site, oferecido pelo grupo +praTi. O objetivo do projeto é criar um portfólio de apresentação utilizando HTML, CSS, JavaScript, Bootstrap.</p>
 <br>
 <hr>
 
@@ -31,4 +31,7 @@
 
 <p align="center">
 <a align= "center" href="https://github.com/yasmimsebastiany" target="_blank">Link do meu GitHub</a>
+  <br>
+<a align= "center" href="https://yasmimsebastiany.github.io/portfolioYasmim/" target="_blank">Link do meu portfólio</a>
+</p>
 
