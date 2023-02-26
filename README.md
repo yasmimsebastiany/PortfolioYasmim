@@ -3,7 +3,7 @@
 <hr>
 
 ## Sobre o projeto:
-<p align= "justify">Este portfólio é o projeto final do curso Desenvolvimento FrontEnd: do Zero ao Primeiro Site, oferecido pelo grupo **+praTi**. O objetivo so projeto é criar um portfólio de apresentação utilizando HTML, CSS, JavaScript, Bootstrap.</p>
+<p align= "justify">Este portfólio é o projeto final do curso Desenvolvimento FrontEnd: do Zero ao Primeiro Site, oferecido pelo grupo +praTi. O objetivo so projeto é criar um portfólio de apresentação utilizando HTML, CSS, JavaScript, Bootstrap.</p>
 <br>
 <hr>
 
