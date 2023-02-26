@@ -1,0 +1,51 @@
+
+	
+	th {
+		background: lightcoral ;
+		text-align: center;
+	}
+
+	td {
+		background: indianred;
+		text-align: center;
+	}
+
+	img {
+		width: 15%;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	body {
+		background: peachpuff;
+	}
+
+	a {
+		color: black;
+	}
+
+	span {
+		color: indianred;
+	}
+
+	.titulo {
+		background: indianred;
+		color: linen;
+		font-family: verdana; 
+		text-align: center;"
+	}
+
+	.sinopse {
+		text-align: center;
+		font-family: Verdana;
+	}
+
+	.enunciado {
+		text-align: center; 
+		background: indianred; 
+		font-family: verdana;
+		color: linen;
+	}
+	

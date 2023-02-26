@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik&display=swap');
+
+
+body {
+  background: #2A384C;
+  font-family: "rubik";
+}
+
+.frame {
+  position: absolute;
+  background-color: #A0B2C2;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.6);
+}
+
+.frame, .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-me {
+  position: absolute;
+  top: 30%;
+  left: 77%;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.front h1 {
+  font-family: cabin, cursive; 
+  font-size: 128px;
+  margin: 16px 80px;
+  color: #2A384C;
+}
+
+.card:hover .flip {
+  transform: rotateY(180deg) translate3d(0, 0, 0);
+  box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease-in-out;
+  perspective: 1000px;
+}
+
+.front, .back {
+  -webkit-backface-visibility:  hidden;
+  width: 100%;
+  height: 100%;
+  background: #A0B2C2;
+  border-radius: 15px;
+}
+
+.card .back {
+  transform: rotateY(-180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.back h2 {
+  font-size: 36px;
+  margin: 8px;
+  color: #2A384C;
+}
+
+.back h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: rubik, cursive;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 25px;
+}
+
+img {
+  width: 30px;
+}
+
+img:hover {
+  width: 46px;
+  cursor: pointer;
+  color: white;
+}
+
+.back p {
+  font-family: cabin;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+

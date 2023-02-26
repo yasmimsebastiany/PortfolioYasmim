@@ -1,0 +1,120 @@
+/* texto hero image */
+.hero_titulo {
+	font-size:  4.5rem;
+}
+.hero_desc {
+	font-size: 2rem;
+}
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.bgimage {
+	height: 100vh;
+	background: url('img/heroImage.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+/*imagem sobre */
+.imagemSobre {
+	width: 100%;
+}
+
+/* serviços */
+.servicesText.card {
+	height: 280px;
+	cursor: pointer;
+}
+
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card:hover .servicesIcon{
+	color: #0B2545;
+}
+
+.servicesText:hover {
+	border: 1px solid #0B2545;
+}
+
+/* menu */
+.navbar {
+	background-color: #8DA9C4;
+	opacity: 0.6;
+}
+.navbar:hover {
+	opacity: inherit;
+}
+
+.navbar a {
+	color: white;
+	opacity: inherit;
+}
+
+.navbar a:hover {
+	background-color: #EEF4ED;
+}
+
+.contactIcon {
+	font-size: 56px;
+	color: #0B2545;
+}
+
+#sobre, #servicos, #portfolio, #contato {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.contactWhats {
+	font-size: 40px;
+	color: #34af23;
+}
+
+.contactWhats:hover {
+	cursor: pointer;
+	font-size: 46px;
+}
+
+.contactLinkedin {
+	font-size: 40px;
+	color: #0e76a8;
+}
+
+.contactLinkedin:hover {
+	cursor:  pointer;
+	font-size: 46px;
+}
+
+.contactGithub {
+	font-size: 40px;
+	color: #171515;
+}
+
+.contactGithub:hover {
+	font-size: 46px;
+	cursor: pointer;
+}
+
+
+#caixa {
+	height: 180px;
+}
+
+#botao:hover {
+	color: #8DA9C4;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins&family=Rubik&display=swap');
